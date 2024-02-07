@@ -270,7 +270,6 @@ odm/etc/camera/dng/ToneCurve_imx581_2.txt
 odm/etc/camera/dng/ToneCurve_imx709_3.txt
 odm/etc/camera/dng/ToneCurve_imx890_0.txt
 odm/etc/camera/eis_camera.vcfg
-odm/etc/camera/facesr_hd_composite_ref_4.1.18_qcom8550_ppl3_ocl.model
 odm/etc/camera/fb_default
 odm/etc/camera/fb_model/000.png
 odm/etc/camera/fb_model/000_pre.bin
@@ -785,10 +784,6 @@ odm/etc/camera/pfb_bin/BeardSharp.bin
 odm/etc/camera/pfb_bin/BeardSharp.frag
 odm/etc/camera/pfb_bin/BeardSharp.vert
 odm/etc/camera/pfb_bin/PreAddSRBinary.bin
-odm/etc/camera/pfb_bin/PreBilaFilterBinary.bin
-odm/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin
-odm/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin
-odm/etc/camera/pfb_bin/PreBilaFilterMixByFaceTargetBinary.bin
 odm/etc/camera/pfb_bin/PreCalVarBinary.bin
 odm/etc/camera/pfb_bin/PreCalcSRBinary.bin
 odm/etc/camera/pfb_bin/PreCalculateOutTex.bin
@@ -908,17 +903,10 @@ odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
 odm/lib/vendor.oplus.hardware.extcamera@1.0.so
-odm/lib64/camera/com.qti.sensor.imx581.so
-odm/lib64/camera/com.qti.sensor.imx709.so
-odm/lib64/camera/com.qti.sensor.imx800.so
 odm/lib64/camera/com.qti.sensor.imx890.so
 odm/lib64/camera/com.qti.sensor.s5k3p9.so
-odm/lib64/camera/com.qti.sensormodule.qtech_imx581.bin
-odm/lib64/camera/com.qti.sensormodule.qtech_imx709.bin
 odm/lib64/camera/com.qti.sensormodule.qtech_imx890.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_s5k3p9.bin
-odm/lib64/camera/com.qti.tuned.qtech_imx581.bin
-odm/lib64/camera/com.qti.tuned.qtech_imx709.bin
 odm/lib64/camera/com.qti.tuned.qtech_imx890.bin
 odm/lib64/camera/com.qti.tuned.sunny_s5k3p9.bin
 odm/lib64/camera/components/com.oplus.node.preview.so
@@ -927,10 +915,6 @@ odm/lib64/camera/components/com.oplus.node.sstabgme.so
 odm/lib64/camera/components/com.oplus.node.sstabphoto.so
 odm/lib64/camera/components/com.oplus.node.sstabrealt.so
 odm/lib64/camera/components/com.oplus.node.videoenhance.so
-odm/lib64/camera/components/com.oplus.stats.aec.so
-odm/lib64/camera/components/com.oplus.stats.af.so
-odm/lib64/camera/components/com.oplus.stats.awb.so
-odm/lib64/camera/components/com.oplus.stats.pdlib.so
 odm/lib64/camera/fdconfigpreview.bin
 odm/lib64/camera/fdconfigpreviewlite.bin
 odm/lib64/camera/fdconfigvideo.bin
@@ -939,10 +923,6 @@ odm/lib64/camera/libaecCustomParam_Cam0.bin
 odm/lib64/camera/libaecCustomParam_Cam1.bin
 odm/lib64/camera/libaecCustomParam_Cam2.bin
 odm/lib64/camera/libaecCustomParam_Cam3.bin
-odm/lib64/camera/libafCustomParamFrontMain.bin
-odm/lib64/camera/libafCustomParamMain.bin
-odm/lib64/camera/libafCustomParamTele.bin
-odm/lib64/camera/libafCustomParamWide.bin
 odm/lib64/camera/revision.txt
 odm/lib64/hw/camera.oemlayer.so
 odm/lib64/lib2DSlender.so
@@ -961,16 +941,6 @@ odm/lib64/libBokehPre.so
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCS.so
 odm/lib64/libCaptureBokeh.so
-odm/lib64/libCipCommon.so
-odm/lib64/libCipParamProcess.so
-odm/lib64/libCipParameter0.so
-odm/lib64/libCipParameter1.so
-odm/lib64/libCipParameter2.so
-odm/lib64/libCipParameter3.so
-odm/lib64/libCipParameter4.so
-odm/lib64/libCipParameter5.so
-odm/lib64/libCipParameter6.so
-odm/lib64/libCipo_awb.so
 odm/lib64/libDeVIS.so
 odm/lib64/libEIS.so
 odm/lib64/libFDClite.so
@@ -1057,7 +1027,6 @@ odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_smart_denoise_v4.so
 odm/lib64/libarcsoft_triple_sat.so
 odm/lib64/libarcsoft_triple_zoomtranslator.so
-odm/lib64/libarcsoft_turbo_fusion_raw_grf.so
 odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
 odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
 odm/lib64/libarcsoft_turbo_hdr_raw.so
@@ -1088,7 +1057,6 @@ odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/liboutils.so
 odm/lib64/libpngwrapper.so
-odm/lib64/libportrait_repair_ppl3_ocl.so
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/libremosaiclib_s5k3p9.so
 odm/lib64/libremosaiclib_s5kjn1.so
@@ -1343,13 +1311,6 @@ vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
-
-# Charger
-odm/firmware/fastchg/22861/bms_heating_config.txt
-odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
-odm/firmware/fastchg/22861/charging_thermal_config_default.txt
-odm/firmware/fastchg/smart_chg_config_table.txt
-vendor/etc/charger_fw_fstab.qti
 
 # CNE
 vendor/app/CACertService/CACertService.apk
@@ -1709,10 +1670,6 @@ vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
-# eUICC
-my_bigball/etc/permissions/EuiccGoogle_grant_permissions_list.xml:product/etc/permissions/privapp-permissions-euiccgoogle.xml
-my_bigball/priv-app/EuiccGoogle/EuiccGoogle.apk:product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-
 # FASTCV
 vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
@@ -2012,11 +1969,9 @@ vendor/lib64/vendor.qti.hardware.limits@1.1.so
 vendor/lib64/vendor.qti.hardware.limits@1.2.so
 
 # Media
-odm/lib/libc2ffmpegutils.so
 odm/lib/libc2filterplugin.so
 odm/lib/libosie_process.so
 odm/lib/libosie_stub.so
-odm/lib64/libc2ffmpegutils.so
 odm/lib64/libc2filterplugin.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
@@ -2143,11 +2098,6 @@ vendor/lib64/libQnnHtpPrepare.so
 vendor/lib64/libQnnHtpV73Stub.so
 vendor/lib64/libQnnSystem.so
 vendor/lib64/libqnnengine.so
-
-# NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_22861:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_22861:vendor/etc/libnfc-nci.conf
-odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
 # OSENSE
 odm/lib64/libosenseaidlhalclient.so
@@ -2703,14 +2653,6 @@ vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.1.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
-
-# UFS
-odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin
-odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
-odm/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin
-odm/firmware/ufs/SAMSUNG-KLUFG8RHDB-B0E1.bin
-odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
-odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
 
 # Video
 vendor/lib/libstreamparser.so
